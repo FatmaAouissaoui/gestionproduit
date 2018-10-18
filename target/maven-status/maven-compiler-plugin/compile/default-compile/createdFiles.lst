@@ -1,0 +1,4 @@
+dpc\tn\core\produit\repository\ProduitRepository.class
+dpc\tn\core\produit\ProduitApplication.class
+dpc\tn\core\produit\controller\ProduitController.class
+dpc\tn\core\produit\model\Produit.class

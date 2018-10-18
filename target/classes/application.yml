@@ -1,0 +1,28 @@
+
+spring:
+    jpa:
+        database: POSTGRESQL
+        hibernate:
+            ddl-auto: update
+
+    datasource:
+        url: jdbc:postgresql://localhost:5432/gestionproduit
+        username: postgres
+        password: postgres
+        
+        port: 8080
+
+  
+  
+---
+spring:
+  profiles: test
+
+
+
+hotel.service:
+  name: 'test profile:'
+
+logging:
+  file: gestionproduit.log
+  org.hibernate: INFO
